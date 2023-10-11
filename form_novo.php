@@ -18,6 +18,11 @@
             </div>
 
             <div class="mb-3">
+                <label for="marca" class="form-label">Marca</label>
+                <input type="text" class="form-control" id="marca" aria-describedby="marca" name="marca">
+            </div>
+
+            <div class="mb-3">
                 <label for="ano" class="form-label">Ano</label>
                 <input type="year" class="form-control" id="ano" name="ano">
             </div>
@@ -44,9 +49,9 @@
             <div class="mb-3">
                 <label for="combustivel" class="form-label">combustivel</label>
                 <select name="combustivel" id="combustivel" class="form-select">
-                    <option value="2">Etanol</option>
-                    <option value="5">Gasolina</option>
-                    <option value="7">Diesel7</option>
+                    <option value="E">Etanol</option>
+                    <option value="G">Gasolina</option>
+                    <option value="D">Diesel</option>
                 </select>
             </div>
             
@@ -54,9 +59,21 @@
                 <label for="cambio" class="form-label">cambio</label>
                 <select name="cambio" id="cambio" class="form-select">
                     <option value="M">Automatico</option>
-                    <option value="A">Diesel7</option>
+                    <option value="A">Diesel</option>
                 </select>
             </div>
+
+            <div class="mb-3">
+                <label for="fk_pessoa" class="form-label">fk_pessoa</label>
+                <select name="fk_pessoa" id="fk_pessoa" class="form-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+
 
             <div class="mb-3">
                 <label for="motor" class="form-label">motor</label>
